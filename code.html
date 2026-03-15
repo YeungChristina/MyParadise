@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的第一個網頁</title>
+    <style>
+        body {
+            font-family: 標楷體, 微軟正黑體, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #f8c3d2);
+            text-align: center;
+            padding: 30px;
+        }
+        h1 {
+            background-color: white;
+            color: #ff6f91;
+            padding: 20px;
+            border-radius: 50px;
+            display: inline-block;
+            box-shadow: 5px 5px 15px rgba(255, 111, 145, 0.3);
+        }
+        .box {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 30px auto;
+            padding: 25px;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 30px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            border: 3px solid white;
+        }
+        img {
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #ffb6c1;
+        }
+        .button {
+            background-color: #ff6f91;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 40px;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #ff3b6f;
+        }
+        /* 電子郵件輸入框的樣式 */
+        input[type=email] {
+            padding: 10px;
+            border-radius: 25px;
+            border: 2px solid #ffb6c1;
+            width: 80%;
+            margin-bottom: 15px;
+            font-size: 16px;
+            outline: none;
+        }
+        input[type=email]:focus {
+            border-color: #ff6f91;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>✨ Welcome to my paradise ✨</h1>
+
+    <div class="box">
+        <h2>About me</h2>
+        <!-- 這裡可以放你的照片（把圖片和這個檔案放在同一個資料夾） -->
+        <!-- 現在先用一個可愛的網上頭像，確保圖片能顯示。如果想用自己的照片，請把 src 改成你的圖片檔名，例如 "我的照片.jpg" -->
+        <img src="liom.jpeg" alt="我的照片">
+        <p>Hii！I am  <Christina aka Christy >楊善</ChristinaakaChristy></p>
+        <p>This year I am going to be 11,I like drawing and listening to music </p>
+        <p>My favorite animal are dogs 🐶</p>
+    </div>
+
+    <div class="box">
+        <h2>My dream is to </h2>
+        <p>⭐ Become a surgeon </p>
+        <p>⭐ Travel the world </p>
+        <p>⭐ Make a lot of new friends </p>
+    </div>
+
+    <!-- 新增的電子郵件輸入欄位區塊 -->
+    <div class="box">
+        <h2>Contact me </h2>
+        <p>Leave your email and let’s be friends </p>
+        <input type="email" placeholder="請輸入你的電郵地址">
+        <br>
+        <button class="button">💌 送出</button>
+    </div>
+
+    <!-- 原來的按鈕保留，也可以當作第二種聯絡方式 -->
+    <a href="#" class="button">📧 寫信給我</a>
+
+</body>
+</html>
+
+
